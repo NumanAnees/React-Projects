@@ -11,8 +11,11 @@ function App() {
       <main>
         <section className="menu section">
           <div className="title">
-            <h2>hey</h2>
+            <h2>Our Menu</h2>
+            <div className="underline"></div>
           </div>
+          <Categories />
+          <Menu items={menuitems} />
         </section>
       </main>
     </>
