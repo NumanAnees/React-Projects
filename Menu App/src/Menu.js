@@ -15,6 +15,10 @@ const Menu = ({ items }) => {
                   <h4 className="price">${price}</h4>
                 </header>
                 <p className="item-text">{desc}</p>
+                <div className="btns">
+                  <button className="btn">Order Now</button>
+                  <button className="btn">Add to Cart</button>
+                </div>
               </div>
             </article>
           );
