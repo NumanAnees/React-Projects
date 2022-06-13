@@ -4,12 +4,15 @@ import './index.css';
 import Counter from './Counter';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Listtodo from './Listtodo';
+import MyCounter from './MyCounter';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <Counter/>    
-  <Listtodo/>
+  // <Listtodo/>
+  <MyCounter/>
+
 );
 
